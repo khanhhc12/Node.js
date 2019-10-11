@@ -1,0 +1,20 @@
+{
+  "name": "helloelectron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package-win": "electron-packager . --platform=win32 --out=release-builds"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^6.0.12",
+    "electron-packager": "^14.0.6"
+  },
+  "dependencies": {
+    "electron-store": "^5.0.0",
+    "spectre.css": "^0.5.8"
+  }
+}
